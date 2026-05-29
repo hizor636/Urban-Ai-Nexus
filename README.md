@@ -1,73 +1,25 @@
-# React + TypeScript + Vite
+# Urban AI-Nexus
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Smarter civic action for a greener Bengaluru.**
 
-Currently, two official plugins are available:
+Urban AI-Nexus connects citizens with municipal agencies using localized AI routing, live tracking, and shared ward accountability to rebuild community trust. Built for Bengaluru's 243 wards, this civic-tech platform bridges the gap between residents and municipal bodies like BBMP, BESCOM, BWSSB, and Traffic Police. [page:1]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌟 Key Features
 
-## React Compiler
+### Two-Portal System
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Portal | Audience | Purpose |
+|--------|----------|---------|
+| **Citizen Portal** | Bengaluru Residents | Rapid grievance reporting, end-to-end transparency, sustainability briefings [page:1] |
+| **Officer Portal** | Municipal Officers & Engineers | Centralized triage inbox, smart department routing, administrative action logging [page:1] |
 
-## Expanding the ESLint configuration
+### Core Capabilities
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Smarter Issue Reporting** – Residents file potholes, garbage dumps, or water sewage issues with geo-coordinates, photos, and ward identifiers locked in under a minute [page:1]
+- **Neural Routing Engine** – AI classifies complaints, assigns emergency severity, and routes tickets to specific departments instantly [page:1]
+- **Transparent Lifecycle Tracking** – Watch issues transition through AI routing → officer dispatch → field photo closure → citizen verification [page:1]
+- **Command Center Dispatch** – Officers track real-time incident queues, municipal vehicles, street teams, and service logs across 243 wards [page:1]
+- **Ward Sustainability Metrics** – Real-time AQI, garbage recycling rates, tree canopy health rankings [page:1]
+- **Macro Service Analytics** – Aggregate response statistics, ward compliance indices, satisfaction ratings, incident density maps [page:1]
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🏛️ Governance Integration
