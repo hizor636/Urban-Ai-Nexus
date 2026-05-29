@@ -1,4 +1,4 @@
-# Urban AI-Nexus
+# Urban AI-Nexus {SCINOVA 2026}
 
 **Smarter civic action for a greener Bengaluru.**
 
